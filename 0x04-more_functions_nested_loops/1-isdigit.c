@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- *Check if a number is an interger falling in between 
- *0 and 9, if so return 1
+ *Check if a number is an interger falling in between
+ *0 and 9,
+ *@c: variable
+ *if so return 1
  *otherwise return 0
  */
 
@@ -13,7 +15,7 @@ if ( c >= 47 && c <= 57)
 {
 return 1;
 }
-else 
+else
 {
 return 0;
 }
