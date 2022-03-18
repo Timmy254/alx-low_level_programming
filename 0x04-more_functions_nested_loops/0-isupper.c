@@ -10,14 +10,14 @@
 
 int _isupper(int c)
 {
-int i = c;
-
-if (i > 64 && i < 91)
+if (c >= 'A' && c <= 'Z')
 {
-return 1;
+return (1);
 }
+
 else
 {
-return 0;
+return (0);
 }
+
 }
