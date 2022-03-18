@@ -8,9 +8,9 @@
  * else: return 0
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
-int i = (int)c;
+int i = c;
 
 if (i > 64 && i < 91)
 {
