@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _isupper(int c) - checks if an a character is capital by converting to interger
+ * _isupper - checks if an a character is capital by converting to interger
  * implements the unicode table to be able to determine.
+ *@c: print int
  * Return: 1 if caps
  * Always: return 0
  */
