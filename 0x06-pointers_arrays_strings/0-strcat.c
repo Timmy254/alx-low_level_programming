@@ -14,7 +14,7 @@ int len = 0;
 char *cpy;
 
 for (; dest[len] != '\0'; len++)
-		;
+;
 
 cpy = dest + len;
 while (*src != '\0')
