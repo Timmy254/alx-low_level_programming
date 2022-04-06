@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * main - print out the minimum number of coins so as to make change for an amount of money.
+ * main - print out the minimum number of coins so as
+ * to make change for an amount of money.
  * @argc: the number of passed arguments
  * @argv: an array of string of passed arguments.
  * Return: 0 if argc != 2, else 1
